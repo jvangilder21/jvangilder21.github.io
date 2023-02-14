@@ -1,14 +1,42 @@
 body{
-  background-color: #444444;
-  color: #dddddd;
+  height: 100%;
+  background-color: seashell;
+  background-image: linear-gradient(to bottom right, mistyrose , seashell, thistle);
   font-family: Arial, Helvetica, sans-serif;
-  margin: 10% 20%;
+  margin: 10% 15%;
 }
-
-.exp-header{
+.name{
   text-align: center;
   text-transform: uppercase;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
-  background-color: rgba:(0,0,0, 0.1)
+  color: black;
+  border-top: 1px solid slateblue;
+  border-bottom: 1px solid slateblue;
+}
+.exp-summary{
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  border-bottom: 1px solid slateblue; 
+}
+.exp-skills{
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  border-top: 1px solid slateblue;
+  border-bottom: 1px solid slateblue;
+}
+.skills {
+  column-count: 2;
+  column-gap: 40px;
+}
+h6{
+  text-align: right;
+  border-bottom: 1px solid slateblue;
+}
+.exp-header{
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid slateblue;
+  border-bottom: 1px solid slateblue;
 }
