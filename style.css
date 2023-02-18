@@ -1,6 +1,6 @@
 body{
   height: 100%;
-  background-color: seashell;
+  background-color: seashell; /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom right, mistyrose , seashell, thistle);
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 15%;
@@ -12,10 +12,38 @@ body{
   border-top: 1px solid slateblue;
   border-bottom: 1px solid slateblue;
 }
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin-top:10px;
+  margin-bottom:10px;
+  height: 90px;
+  line-height: .0;
+  border-radius: 10px; 
+  text-align: center;
+  background-image: linear-gradient(to bottom right, lightcyan, lavender);
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.imgcontact{
+  border-radius: 10px;
+  background-position: left top;
+  background-repeat: repeat;
+  float: center;
+}
 .exp-summary{
   text-transform: uppercase;
   text-align: center;
+  line-height: .7;
   color: black;
+  border-top: 1px solid slateblue;
   border-bottom: 1px solid slateblue; 
 }
 .exp-skills{
@@ -29,10 +57,6 @@ body{
   column-count: 2;
   column-gap: 40px;
 }
-h6{
-  text-align: right;
-  border-bottom: 1px solid slateblue;
-}
 .exp-header{
   color: black;
   text-align: center;
@@ -40,3 +64,15 @@ h6{
   border-top: 1px solid slateblue;
   border-bottom: 1px solid slateblue;
 }
+.jobimage{
+  border-radius: 10px;
+  background-position: left top;
+  background-repeat: repeat;
+  float: center;
+  padding-right: 3px;
+}
+.date{
+  text-align: right;
+  border-bottom: 1px solid slateblue;
+}
+
