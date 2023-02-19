@@ -25,7 +25,7 @@ body{
   line-height: .0;
   border-radius: 10px; 
   text-align: center;
-  background-image: linear-gradient(to bottom right, lightcyan, lavender);
+  background-image: linear-gradient(to bottom right, seashell, lavender);
 }
 .row:after {
   content: "";
@@ -70,6 +70,9 @@ body{
   background-repeat: repeat;
   float: center;
   padding-right: 3px;
+}
+.border{
+  border-top: 1px solid slateblue;
 }
 .date{
   text-align: right;
