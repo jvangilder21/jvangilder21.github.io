@@ -74,6 +74,9 @@ body{
 .border{
   border-top: 1px solid black;
 }
+.luckycat{
+  float: right;
+}
 .date{
   text-align: right;
   border-bottom: 1px solid black;
